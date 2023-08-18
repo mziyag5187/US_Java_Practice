@@ -1,11 +1,16 @@
 package b29.practice_tasks;
 
+import java.util.Arrays;
+import java.util.Collections;
+
 public class Test {
 
     public static void main(String[] args) {
 
-        Person person = new Person("Zack","SDET",32);
+        String str = "abcabc";
 
-        System.out.println(person);
+        String[] array = str.split("abc");
+
+        System.out.println(Arrays.toString(array));
     }
 }
