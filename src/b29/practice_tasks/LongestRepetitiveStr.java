@@ -22,17 +22,16 @@ public class LongestRepetitiveStr {
  */
     public static void main(String[] args) {
 
-        String str = "abcdefxabcdef";
+        String str = "abcdefabcdefabcdefabcdef";
 
-        String partialStr = "";
+        String longestOne = "";
 
-        for (int i = str.length()/2,j=0; i >= 0; i--,j++) {
-            char letter = str.charAt(j);
+        for (int i = 0; i < str.length()/2 ; i++) {
 
-            partialStr += letter;
+            longestOne += str.charAt(i);
 
-            if (str.split(partialStr).length == 0) {
-                System.out.println(partialStr + " is the Longest Repetitive Substring in " + str);
+            if (str.split(longestOne).length == 0 ) {
+                System.out.println(longestOne + " is the Longest Repetitive Substring in " + str);
                 return;
             }
 
