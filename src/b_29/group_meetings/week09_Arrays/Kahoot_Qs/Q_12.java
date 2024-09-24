@@ -10,7 +10,7 @@ public class Q_12 {
 
         System.out.println(Arrays.toString(nums));
 
-        System.out.println(Arrays.binarySearch(nums,4));
+        System.out.println(Arrays.binarySearch(nums,1));
 
 
     }

@@ -11,6 +11,6 @@ public class Q6 {
 
     public static void main(String[] args) {
         //m1(); // can call m1() as staticly imported without class name
-              // in the same class since it is static method
+                // in the same class since it is static method
     }
 }

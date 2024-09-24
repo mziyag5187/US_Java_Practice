@@ -5,13 +5,14 @@ import java.util.ArrayList;
 public class Test {
     public static void main(String[] args) {
 
-        ArrayList<Integer> nums = new ArrayList<>();
+        ArrayList<String> names = new ArrayList<>();
+        names.add("Aaron");
 
-        nums.add(15);
-        nums.add(12);
+        names.set(1,"Zack");
 
-        nums.add(3,1);// invalid index
-        System.out.println();
+        System.out.println(names);
+
+
 
 
     }

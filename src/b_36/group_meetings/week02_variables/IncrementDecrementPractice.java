@@ -1,4 +1,4 @@
-package b_36.group_meetings.week03_variables;
+package b_36.group_meetings.week02_variables;
 
 public class IncrementDecrementPractice {
     public static void main(String[] args) {
